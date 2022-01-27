@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "nameCategory": "Tennis"
+    },
+    {
+        "id": 2,
+        "nameCategory": "Zapatos Cerrados"
+    },
+    {
+        "id": 3,
+        "nameCategory": "Sandalias"
+    },
+    {
+        "id": 4,
+        "nameCategory": "Desodorantes"
+    },
+    {
+        "id": 5,
+        "nameCategory": "Cremas Corporales"
+    },
+    {
+        "id": 6,
+        "nameCategory": "Lociones"
+    },
+    {
+        "id": 7,
+        "nameCategory": "Shampoos"
+    },
+    {
+        "id": 8,
+        "nameCategory": "Jabon de Baño"
+    },
+    {
+        "id": 9,
+        "nameCategory": "Crema de Pelo"
+    },
+    {
+        "id": 10,
+        "nameCategory": "Tintes de cabello"
+    },
+    {
+        "id": 11,
+        "nameCategory": "Monederos"
+    },
+    {
+        "id": 12,
+        "nameCategory": "Maquillaje"
+    },
+    {
+        "id": 13,
+        "nameCategory": "Glases"
+    },
+    {
+        "id": 14,
+        "nameCategory": "Aritos"
+    },
+    {
+        "id": 15,
+        "nameCategory": "Cadenas"
+    },
+    {
+        "id": 16,
+        "nameCategory": "Relojes"
+    },
+    {
+        "id": 17,
+        "nameCategory": "Camisas Charly"
+    },
+    {
+        "id": 18,
+        "nameCategory": "Cepillos de pelo"
+    },
+    {
+        "id": 19,
+        "nameCategory": "Ropa interior de mujer"
+    }
+]

@@ -1,20 +1,31 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+import { PrincipalScreen, AreaScreen, MainScreen, PerfilScreen } from './Screens/index';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+const AppNavigator = createStackNavigator({
+  Principal: {
+    screen: PrincipalScreen
   },
-});
+  Categoria: {
+    screen: AreaScreen
+  },
+  Main: {
+    screen: MainScreen
+  },
+  Perfil: {
+    screen: PerfilScreen
+  }
+},
+{ 
+  initialRouteName: 'Principal',
+  defaultNavigationOptions: {
+    headerStyle: {
+      backgroundColor: '#202641',
+      borderBottomWidth: 1,
+      borderBottomColor: '#000'
+    },
+    headerTintColor: '#FFFFFF',
+  }
+})
+
+export default createAppContainer(AppNavigator);
