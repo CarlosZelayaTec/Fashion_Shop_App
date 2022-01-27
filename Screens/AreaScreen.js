@@ -2,10 +2,11 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Categorias from '../Components/Categorias'
 
-const AreaScreen = () => {
+const AreaScreen = ({ navigation }) => {
+
     return(
         <View style={styles.container} >
-            <Categorias />
+            <Categorias navigation={navigation}/>
         </View>
     )
 }

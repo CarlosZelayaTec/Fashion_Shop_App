@@ -1,78 +1,173 @@
 [
     {
         "id": 1,
-        "nameCategory": "Tennis"
+        "nameCategory": "Tennis",
+        "urlLogo": 
+        {
+            "id": 1, 
+            "src": "require('../assets/IconoCategoria/Tennis.png')" 
+        }
     },
     {
         "id": 2,
-        "nameCategory": "Zapatos Cerrados"
+        "nameCategory": "Zapatos Cerrados",
+        "urlLogo": 
+        {
+            "id": 2, 
+            "src": "require('../assets/IconoCategoria/deslizar-el-pie-dentro-de-los-zapatos.png')" 
+        } 
     },
     {
         "id": 3,
-        "nameCategory": "Sandalias"
+        "nameCategory": "Sandalias",
+        "urlLogo": 
+        {
+            "id": 3,
+            "src": "require('../assets/IconoCategoria/sandalias.png')" 
+        }
     },
     {
         "id": 4,
-        "nameCategory": "Desodorantes"
+        "nameCategory": "Desodorantes",
+        "urlLogo": 
+        {
+            "id": 4, 
+            "src": "require('../assets/IconoCategoria/desodorante.png')" 
+        } 
     },
     {
         "id": 5,
-        "nameCategory": "Cremas Corporales"
+        "nameCategory": "Cremas Corporales",
+        "urlLogo": 
+        {
+            "id": 5, 
+            "src": "require('../assets/IconoCategoria/cremaCorporal.png')" 
+        } 
     },
     {
         "id": 6,
-        "nameCategory": "Lociones"
+        "nameCategory": "Lociones",
+        "urlLogo": 
+        {
+            "id": 6, 
+            "src": "require('../assets/IconoCategoria/perfume.png')" 
+        } 
     },
     {
         "id": 7,
-        "nameCategory": "Shampoos"
+        "nameCategory": "Shampoos",
+        "urlLogo": 
+        {
+            "id": 7, 
+            "src": "require('../assets/IconoCategoria/shampoo.png')" 
+        } 
     },
     {
         "id": 8,
-        "nameCategory": "Jabon de Baño"
+        "nameCategory": "Jabon de Baño",
+        "urlLogo": 
+        {
+            "id": 8, 
+            "src": "require('../assets/IconoCategoria/jabon.png')" 
+        } 
     },
     {
         "id": 9,
-        "nameCategory": "Crema de Pelo"
+        "nameCategory": "Crema de Pelo",
+        "urlLogo": 
+        {
+            "id": 9, 
+            "src": "require('../assets/IconoCategoria/cremaDePelo.png')" 
+        } 
     },
     {
         "id": 10,
-        "nameCategory": "Tintes de cabello"
+        "nameCategory": "Tintes de cabello",
+        "urlLogo": 
+        {
+            "id": 10, 
+            "src": "require('../assets/IconoCategoria/colorante.png')" 
+        } 
     },
     {
         "id": 11,
-        "nameCategory": "Monederos"
+        "nameCategory": "Monederos",
+        "urlLogo": 
+        {
+            "id": 11, 
+            "src": "require('../assets/IconoCategoria/bolso.png')" 
+        } 
     },
     {
         "id": 12,
-        "nameCategory": "Maquillaje"
+        "nameCategory": "Maquillaje",
+        "urlLogo": 
+        {
+            "id": 12, 
+            "src": "require('../assets/IconoCategoria/belleza.png')" 
+        } 
     },
     {
         "id": 13,
-        "nameCategory": "Glases"
+        "nameCategory": "Glases",
+        "urlLogo": 
+        {
+            "id": 13, 
+            "src": "require('../assets/IconoCategoria/esmalte-de-unas.png')" 
+        } 
     },
     {
         "id": 14,
-        "nameCategory": "Aritos"
+        "nameCategory": "Aritos",
+        "urlLogo": 
+        {
+            "id": 14, 
+            "src": "require('../assets/IconoCategoria/pendientes.png')" 
+        } 
     },
     {
         "id": 15,
-        "nameCategory": "Cadenas"
+        "nameCategory": "Cadenas",
+        "urlLogo": 
+        {
+            "id": 15, 
+            "src": "require('../assets/IconoCategoria/collar.png')" 
+        } 
     },
     {
         "id": 16,
-        "nameCategory": "Relojes"
+        "nameCategory": "Relojes",
+        "urlLogo": 
+        {
+            "id": 16, 
+            "src": "require('../assets/IconoCategoria/reloj-de-pulsera.png')" 
+        } 
     },
     {
         "id": 17,
-        "nameCategory": "Camisas Charly"
+        "nameCategory": "Camisas Charly",
+        "urlLogo": 
+        {
+            "id": 17, 
+            "src": "require('../assets/IconoCategoria/ropa.png')" 
+        } 
     },
     {
         "id": 18,
-        "nameCategory": "Cepillos de pelo"
+        "nameCategory": "Cepillos de pelo",
+        "urlLogo": 
+        {
+            "id": 18, 
+            "src": "require('../assets/IconoCategoria/cepillo-de-pelo.png')" 
+        } 
     },
     {
         "id": 19,
-        "nameCategory": "Ropa interior de mujer"
+        "nameCategory": "Ropa interior de mujer",
+        "urlLogo": 
+        {
+            "id": 19, 
+            "src": "require('../assets/IconoCategoria/ropa-interior.png')" 
+        } 
     }
 ]

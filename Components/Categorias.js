@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Text, StyleSheet, View, FlatList } from 'react-native';
 import ListaCategorias from './ListaCategorias';
 
-const Categorias = () => {
+const Categorias = ({ navigation }) => {
 
     const [datos, setDatos] = useState([]);
 
@@ -22,7 +22,7 @@ const Categorias = () => {
             data={datos}
             keyExtractor={x => x.id}
             numColumns={3}
-            renderItem={({item}) =>  <ListaCategorias Categorias={item.nameCategory} />  }
+            renderItem={({item}) =>  <ListaCategorias id={item.id} Categorias={item.nameCategory} logo={item.urlLogo.src} navigation={navigation} />  }
         />
       </View>
     )

@@ -16,7 +16,7 @@ const Login = ({navigation}) => {
         </View>
 
         <View style={styles.containterInput}>
-            <TextInput style={styles.textInput} placeholder='Su nombre' placeholderTextColor={'#858585'}/>
+            <TextInput style={styles.textInput} placeholder='Su nombre' placeholderTextColor={'#858585'} autoCorrect={true}/>
         </View>
 
         <View style={styles.buttonAlign}>

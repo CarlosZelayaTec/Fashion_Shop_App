@@ -1,12 +1,39 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 
-const ListaCategorias = ({ Categorias }) => {
+const ListaCategorias = ({ id, Categorias, logo, navigation }) => {
+
+    const next = () => {
+        navigation.navigate('Main', { idCategoria: id });
+    }
+    
+    const logos = [
+        require('../assets/IconoCategoria/Tennis.png'),
+        require('../assets/IconoCategoria/deslizar-el-pie-dentro-de-los-zapatos.png'),
+        require('../assets/IconoCategoria/sandalias.png'),
+        require('../assets/IconoCategoria/desodorante.png'),
+        require('../assets/IconoCategoria/cremaCorporal.png'),
+        require('../assets/IconoCategoria/perfume.png'),
+        require('../assets/IconoCategoria/shampoo.png'),
+        require('../assets/IconoCategoria/jabon.png'),
+        require('../assets/IconoCategoria/cremaDePelo.png'),
+        require('../assets/IconoCategoria/colorante.png'),
+        require('../assets/IconoCategoria/bolso.png'),
+        require('../assets/IconoCategoria/belleza.png'),
+        require('../assets/IconoCategoria/esmalte-de-unas.png'),
+        require('../assets/IconoCategoria/pendientes.png'),
+        require('../assets/IconoCategoria/collar.png'),
+        require('../assets/IconoCategoria/reloj-de-pulsera.png'),
+        require('../assets/IconoCategoria/ropa.png'),
+        require('../assets/IconoCategoria/cepillo-de-pelo.png'),
+        require('../assets/IconoCategoria/ropa-interior.png'),
+    ]
 
   return (
     <View style={styles.container}>
-        <TouchableOpacity style={styles.containerTouchable}> 
+        <TouchableOpacity style={styles.containerTouchable} onPress={next} > 
             <Text style={styles.titleCategorias}>{Categorias}</Text>
+            <Image source={logos[id - 1]} style={styles.imageLogo} resizeMode='cover' />
         </TouchableOpacity>
     </View>
   );
@@ -34,15 +61,20 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         margin: 10,
         backgroundColor: '#FFFFFF',
-        height: 60,
+        height: 75,
         borderRadius: 15,
         padding: 5
     },
     titleCategorias: {
         fontFamily: 'Cochin',
-        fontSize: 19,
+        fontSize: 10,
+        fontWeight: 'bold'
         // backgroundColor: 'red'
         // textAlign: 
+    },
+    imageLogo: {
+        width: 60,
+        height: 60,
     }
 });     
 
