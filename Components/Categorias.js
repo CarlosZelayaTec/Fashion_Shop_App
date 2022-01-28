@@ -22,7 +22,7 @@ const Categorias = ({ navigation }) => {
             data={datos}
             keyExtractor={x => x.id}
             numColumns={3}
-            renderItem={({item}) =>  <ListaCategorias id={item.id} Categorias={item.nameCategory} logo={item.urlLogo.src} navigation={navigation} />  }
+            renderItem={({item}) =>  <ListaCategorias id={item.id} Categorias={item.nameCategory} navigation={navigation} />  }
         />
       </View>
     )
@@ -36,7 +36,11 @@ const styles = StyleSheet.create({
     title: {
         fontSize: 30,
         color: '#FFFFFF',
-        fontFamily: 'Cochin',
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        })
     }
 })
 

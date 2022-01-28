@@ -25,7 +25,12 @@ const AppNavigator = createStackNavigator({
       borderBottomColor: '#000'
     },
     headerTintColor: '#FFFFFF',
+    // headerShown: false,
   }
 })
+
+MainScreen.navigationOptions = {
+  title: 'Tenis'
+}
 
 export default createAppContainer(AppNavigator);

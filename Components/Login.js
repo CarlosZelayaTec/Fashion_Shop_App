@@ -37,12 +37,20 @@ const styles = StyleSheet.create({
         color: '#FFFFFF',
         fontSize: 40,
         textAlign: 'center',
-        fontFamily: 'Cochin'
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        })
     },
     textWelcome: {
         color: '#FFFFFF',
         fontSize: 30,
-        fontFamily: 'Cochin',
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        }),
         marginTop: 40
     },
     welcomeContainer: {
@@ -82,7 +90,11 @@ const styles = StyleSheet.create({
     textButton: {
         fontSize: 20,
         color: '#FFFFFF',
-        fontFamily: 'Cochin'
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        })
     }
 });
 

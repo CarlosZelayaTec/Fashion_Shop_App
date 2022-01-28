@@ -1,5 +1,20 @@
 [
     {
-        
+        "categoriaId": 1,
+        "id": 1,
+        "nameProduc": "Skechers",
+        "precio": 520,
+        "color": ["blanco", "amarillo", "cafe"],
+        "talla": [38, 39, 40],
+        "urlImage": "require('../assets/Tennis/sebas.JPG"
+    },
+    {
+        "categoriaId": 1,
+        "id": 2,
+        "nameProduc": "Air Force One",
+        "precio": 1480,
+        "color": ["blanco", "azul", "cafe"],
+        "talla": [37, 39, 40, 41],
+        "urlImage": "require('../assets/Tennis/sebasDos.JPG"
     }
 ]

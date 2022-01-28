@@ -1,7 +1,7 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image, Platform } from 'react-native';
 
-const ListaCategorias = ({ id, Categorias, logo, navigation }) => {
+const ListaCategorias = ({ id, Categorias, navigation }) => {
 
     const next = () => {
         navigation.navigate('Main', { idCategoria: id });
@@ -27,6 +27,8 @@ const ListaCategorias = ({ id, Categorias, logo, navigation }) => {
         require('../assets/IconoCategoria/ropa.png'),
         require('../assets/IconoCategoria/cepillo-de-pelo.png'),
         require('../assets/IconoCategoria/ropa-interior.png'),
+        require('../assets/IconoCategoria/ropa-interior-hombre.png'),
+        require('../assets/IconoCategoria/bata-de-noche.png'),
     ]
 
   return (
@@ -58,19 +60,22 @@ const styles = StyleSheet.create({
     containerTouchable: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center',
+        justifyContent: 'space-evenly',
         margin: 10,
         backgroundColor: '#FFFFFF',
-        height: 75,
+        height: 80,
         borderRadius: 15,
         padding: 5
     },
     titleCategorias: {
-        fontFamily: 'Cochin',
         fontSize: 10,
-        fontWeight: 'bold'
-        // backgroundColor: 'red'
-        // textAlign: 
+        fontWeight: 'bold',
+        textAlign: 'center',
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        })
     },
     imageLogo: {
         width: 60,
