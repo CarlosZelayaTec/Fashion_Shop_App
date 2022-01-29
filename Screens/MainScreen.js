@@ -1,31 +1,25 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, FlatList, Image } from 'react-native';
 import ListaProductos from '../Components/ListaProductos';
+import ImagesProducts from '../Api/ImagesProducts';
 
 const MainScreen = ({ navigation }) => {
 
     const idCategoria = navigation.getParam('idCategoria');
 
     const [productos, setProductos] = useState([])
-    const [imagenes, setImagenes] = useState([])
+    const [imagenes, setImagenes] = useState([]);
 
     const fetchProductos = () => {
         const data = require('../Api/Productos.json');
+        setImagenes(ImagesProducts);
         setProductos(data);
     }
 
-    // const fetchImagenes = () => {
-    //     productos.filter(x => {
-            
-    //     } )
-    // }
-
+    
     useEffect(() => {
         fetchProductos();
-        fetchImagenes();
     })
-
-    console.log(imagenes);
 
     return(
         <View style={styles.container} >
@@ -33,7 +27,7 @@ const MainScreen = ({ navigation }) => {
                 data={productos.filter(x => x.categoriaId === idCategoria)}
                 keyExtractor={x => x.id}
                 numColumns={2}
-                renderItem={({item}) => <ListaProductos ttt={item.nameProduc} imagenes={imagenes}/>}
+                renderItem={({item}) => <ListaProductos idP={item.id} ttt={item.nameProduc} imagenes={imagenes.filter(x => x.id_Categoria === idCategoria)}/>}
             />
         </View>
     )
@@ -45,7 +39,7 @@ const styles = StyleSheet.create({
         // alignSelf: 'stretch',
         // justifyContent: 'center',
         // alignItems: 'center',
-        backgroundColor: '#CCCCCC',
+        backgroundColor: '#202641',
     }
 })
 

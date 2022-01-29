@@ -31,6 +31,8 @@ const ListaCategorias = ({ id, Categorias, navigation }) => {
         require('../assets/IconoCategoria/bata-de-noche.png'),
     ]
 
+    // console.log(logos);
+
   return (
     <View style={styles.container}>
         <TouchableOpacity style={styles.containerTouchable} onPress={next} > 

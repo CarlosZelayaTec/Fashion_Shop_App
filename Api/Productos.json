@@ -2,19 +2,217 @@
     {
         "categoriaId": 1,
         "id": 1,
-        "nameProduc": "Skechers",
-        "precio": 520,
-        "color": ["blanco", "amarillo", "cafe"],
-        "talla": [38, 39, 40],
-        "urlImage": "require('../assets/Tennis/sebas.JPG"
+        "nameProduc": "Barcelona",
+        "precio": 1, 
+        "color": ["Gris"],
+        "talla": [39]
     },
     {
         "categoriaId": 1,
         "id": 2,
-        "nameProduc": "Air Force One",
-        "precio": 1480,
-        "color": ["blanco", "azul", "cafe"],
-        "talla": [37, 39, 40, 41],
-        "urlImage": "require('../assets/Tennis/sebasDos.JPG"
+        "nameProduc": "Lady's Versatile High WR",
+        "precio": 480,
+        "color": ["Rosado"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 1,
+        "id": 3,
+        "nameProduc": "DB7584",
+        "precio": 1,
+        "color": ["Silver"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 1,
+        "id": 4,
+        "nameProduc": "Lady's Versatile High WR",
+        "precio": 480,
+        "color": ["Black"],
+        "talla": [40]
+    },
+    {
+        "categoriaId": 1,
+        "id": 5,
+        "nameProduc": "Aruba",
+        "precio": 450,
+        "color": ["Rosado"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 1,
+        "id": 6,
+        "nameProduc": "Rubie",
+        "precio": 430,
+        "color": ["Negro"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 1,
+        "id": 7,
+        "nameProduc": "Maxima",
+        "precio": 500,
+        "color": ["Negro"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 2,
+        "id": 8,
+        "nameProduc": "Noah",
+        "precio": 530,
+        "color": ["Camel"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 9,
+        "nameProduc": "Bailarina",
+        "precio": 330,
+        "color": ["Mustard"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 10,
+        "nameProduc": "Noah",
+        "precio": 530,
+        "color": ["Negro"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 11,
+        "nameProduc": "Queens",
+        "precio": 415,
+        "color": ["Camel"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 12,
+        "nameProduc": "Eva",
+        "precio": 550,
+        "color": ["Rosado"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 13,
+        "nameProduc": "Phillig",
+        "precio": 1,
+        "color": ["Mocha"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 14,
+        "nameProduc": "Cora",
+        "precio": 430,
+        "color": ["Negro"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 15,
+        "nameProduc": "Quincy",
+        "precio": 430,
+        "color": ["Azul"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 16,
+        "nameProduc": "Terry",
+        "precio": 530,
+        "color": ["Rosado"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 17,
+        "nameProduc": "Bristol",
+        "precio": 525,
+        "color": ["Negro"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 18,
+        "nameProduc": "AL126-13",
+        "precio": 400,
+        "color": ["Negro"],
+        "talla": [35]
+    },
+    {
+        "categoriaId": 2,
+        "id": 19,
+        "nameProduc": "Brok",
+        "precio": 420,
+        "color": ["Camel"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 20,
+        "nameProduc": "HX19-M18",
+        "precio": 420,
+        "color": ["Beige"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 2,
+        "id": 21,
+        "nameProduc": "Atlantic",
+        "precio": 385,
+        "color": ["Terra"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 2,
+        "id": 22,
+        "nameProduc": "Tangx IA",
+        "precio": 430,
+        "color": ["Negro"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 2,
+        "id": 23,
+        "nameProduc": "Winnie",
+        "precio": 330,
+        "color": ["Amarillo"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 2,
+        "id": 24,
+        "nameProduc": "Rouge",
+        "precio": 465,
+        "color": ["Negro"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 2,
+        "id": 25,
+        "nameProduc": "Cheryl",
+        "precio": 530,
+        "color": ["Beige"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 2,
+        "id": 26,
+        "nameProduc": "Belfast",
+        "precio": 430,
+        "color": ["Black Patent"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 2,
+        "id": 27,
+        "nameProduc": "Stanford",
+        "precio": 430,
+        "color": ["Wine Patent"],
+        "talla": [39]
     }
 ]

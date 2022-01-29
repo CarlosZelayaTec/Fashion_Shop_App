@@ -30,7 +30,7 @@ const AppNavigator = createStackNavigator({
 })
 
 MainScreen.navigationOptions = {
-  title: 'Tenis'
+  title: 'Perfil'
 }
 
 export default createAppContainer(AppNavigator);
