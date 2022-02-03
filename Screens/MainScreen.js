@@ -27,7 +27,7 @@ const MainScreen = ({ navigation }) => {
                 data={productos.filter(x => x.categoriaId === idCategoria)}
                 keyExtractor={x => x.id}
                 numColumns={2}
-                renderItem={({item}) => <ListaProductos idP={item.id} ttt={item.nameProduc} imagenes={imagenes.filter(x => x.id_Categoria === idCategoria)}/>}
+                renderItem={({item}) => <ListaProductos idP={item.id} ttt={item.nameProduc} precio={item.precio} imagenes={imagenes}/>}
             />
         </View>
     )
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
         // justifyContent: 'center',
         // alignItems: 'center',
         backgroundColor: '#202641',
+        // backgroundColor: '#FFFFFF',
     }
 })
 

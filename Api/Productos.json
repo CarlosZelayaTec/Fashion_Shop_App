@@ -58,7 +58,7 @@
     {
         "categoriaId": 2,
         "id": 8,
-        "nameProduc": "Noah",
+        "nameProduc": "Dylan",
         "precio": 530,
         "color": ["Camel"],
         "talla": [36]
@@ -214,5 +214,566 @@
         "precio": 430,
         "color": ["Wine Patent"],
         "talla": [39]
+    },
+    {
+        "categoriaId": 3,
+        "id": 28,
+        "nameProduc": "FLY05-32",
+        "precio": 400,
+        "color": ["Café"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 29,
+        "nameProduc": "Malibel",
+        "precio": 460,
+        "color": ["Champagne"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 30,
+        "nameProduc": "Cirella",
+        "precio": 450,
+        "color": ["Dorado"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 31,
+        "nameProduc": "Girona",
+        "precio": 415,
+        "color": ["Mustard"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 32,
+        "nameProduc": "Palmetto",
+        "precio": 480,
+        "color": ["Champagne"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 33,
+        "nameProduc": "Baiyun",
+        "precio": 415,
+        "color": ["Red"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 34,
+        "nameProduc": "FEM-22",
+        "precio": 400,
+        "color": ["Rose Gold"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 35,
+        "nameProduc": "CDA621-112",
+        "precio": 300,
+        "color": ["Negro"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 3,
+        "id": 36,
+        "nameProduc": "Neela2",
+        "precio": 430,
+        "color": ["Dorado"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 37,
+        "nameProduc": "Fritzie",
+        "precio": 460,
+        "color": ["Negro"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 38,
+        "nameProduc": "Sicilia",
+        "precio": 385,
+        "color": ["Silver"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 39,
+        "nameProduc": "Verona",
+        "precio": 415,
+        "color": ["Silver"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 3,
+        "id": 40,
+        "nameProduc": "HSM28-1",
+        "precio": 300,
+        "color": ["Dorado"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 3,
+        "id": 41,
+        "nameProduc": "Labelle",
+        "precio": 1,
+        "color": ["Camel"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 42,
+        "nameProduc": "Ariadna",
+        "precio": 1,
+        "color": ["Negro"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 43,
+        "nameProduc": "Signal",
+        "precio": 750,
+        "color": ["Negro"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 44,
+        "nameProduc": "Kenley",
+        "precio": 39,
+        "color": ["Camel"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 3,
+        "id": 45,
+        "nameProduc": "Avatar",
+        "precio": 650,
+        "color": ["Nude"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 3,
+        "id": 46,
+        "nameProduc": "Merida",
+        "precio": 36,
+        "color": ["Coffe"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 47,
+        "nameProduc": "Getha",
+        "precio": 525,
+        "color": ["Negro"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 48,
+        "nameProduc": "Coco",
+        "precio": 1,
+        "color": ["Champagne"],
+        "talla": [39]
+    },
+    {
+        "categoriaId": 3,
+        "id": 49,
+        "nameProduc": "Manila",
+        "precio": 315,
+        "color": ["Rosado"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 50,
+        "nameProduc": "Fem-16",
+        "precio": 400,
+        "color": ["Rose Gold"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 51,
+        "nameProduc": "A20-G09",
+        "precio": 1,
+        "color": ["Nude"],
+        "talla": [22]
+    },
+    {
+        "categoriaId": 3,
+        "id": 52,
+        "nameProduc": "WCD627-48A",
+        "precio": 1,
+        "color": ["Fushia"],
+        "talla": [30]
+    },
+    {
+        "categoriaId": 3,
+        "id": 53,
+        "nameProduc": "Ravena",
+        "precio": 450,
+        "color": ["LT Gold"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 3,
+        "id": 54,
+        "nameProduc": "Arona",
+        "precio": 1,
+        "color": ["Camel"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 3,
+        "id": 55,
+        "nameProduc": "Ningbo",
+        "precio": 415,
+        "color": ["Rojo"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 56,
+        "nameProduc": "Arabella2",
+        "precio": 550,
+        "color": ["Negro"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 57,
+        "nameProduc": "Kala",
+        "precio": 450,
+        "color": ["Nude"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 58,
+        "nameProduc": "Kamilah",
+        "precio": 420,
+        "color": ["Camel"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 59,
+        "nameProduc": "Shanghai",
+        "precio": 420,
+        "color": ["Rojo"],
+        "talla": [37]
+    },
+    {
+        "categoriaId": 3,
+        "id": 60,
+        "nameProduc": "Alondra",
+        "precio": 1,
+        "color": ["Camel"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 61,
+        "nameProduc": "Marina",
+        "precio": 450,
+        "color": ["Rosado"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 62,
+        "nameProduc": "Rupi",
+        "precio": 450,
+        "color": ["Café"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 63,
+        "nameProduc": "Miconos 2",
+        "precio": 450,
+        "color": ["Champagne"],
+        "talla": [36]
+    },
+    {
+        "categoriaId": 3,
+        "id": 64,
+        "nameProduc": "Hera",
+        "precio": 335,
+        "color": ["Silver"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 3,
+        "id": 65,
+        "nameProduc": "CD418-142",
+        "precio": 260,
+        "color": ["Beige"],
+        "talla": [40]
+    },
+    {
+        "categoriaId": 3,
+        "id": 66,
+        "nameProduc": "Ares",
+        "precio": 345,
+        "color": ["Mustard"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 4,
+        "id": 67,
+        "nameProduc": "Sin Nombre",
+        "precio": 1,
+        "color": ["Gris"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 4,
+        "id": 68,
+        "nameProduc": "Sin Nombre",
+        "precio": 1,
+        "color": ["Cafe"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 4,
+        "id": 69,
+        "nameProduc": "Sin Nombre",
+        "precio": 1,
+        "color": ["Cafe"],
+        "talla": [38]
+    },
+    {
+        "categoriaId": 5,
+        "id": 70,
+        "nameProduc": "Dove",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 5,
+        "id": 71,
+        "nameProduc": "Secret",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 5,
+        "id": 72,
+        "nameProduc": "Suave",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 5,
+        "id": 73,
+        "nameProduc": "Body Mist",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 5,
+        "id": 74,
+        "nameProduc": "Rexona",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 5,
+        "id": 75,
+        "nameProduc": "Nivea",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 5,
+        "id": 76,
+        "nameProduc": "Axe",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 5,
+        "id": 77,
+        "nameProduc": "Nivea Men",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 5,
+        "id": 78,
+        "nameProduc": "Rexona men",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 5,
+        "id": 79,
+        "nameProduc": "Old Spice Fresh",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 5,
+        "id": 80,
+        "nameProduc": "Rexona en barra",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 5,
+        "id": 81,
+        "nameProduc": "Degree",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 6,
+        "id": 82,
+        "nameProduc": "Lovali Fragances",
+        "precio": 200,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 83,
+        "nameProduc": "Frangance Mist - Brume Perfume",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 84,
+        "nameProduc": "Pink in Sweet",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 85,
+        "nameProduc": "Victoria's Secret",
+        "precio": 100,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 86,
+        "nameProduc": "Pink In Sweet",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 87,
+        "nameProduc": "Boos",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 6,
+        "id": 88,
+        "nameProduc": "The Victoria's Star",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 89,
+        "nameProduc": "Acqua Di Giq",
+        "precio": 450,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
+    },
+    {
+        "categoriaId": 6,
+        "id": 90,
+        "nameProduc": "Le via est belle",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 91,
+        "nameProduc": "Tonny",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 92,
+        "nameProduc": "OnlyYou",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 93,
+        "nameProduc": "Vercage",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Mujer"
+    },
+    {
+        "categoriaId": 6,
+        "id": 94,
+        "nameProduc": "OnlyYou",
+        "precio": 1,
+        "color": [""],
+        "talla": [],
+        "sexo": "Hombre"
     }
 ]

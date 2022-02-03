@@ -1,29 +1,14 @@
 import { Image, StyleSheet, Text, View, TouchableOpacity, Platform } from 'react-native';
 import React, {useEffect, useState} from 'react';
 
-let indice = 0;
-let x
-
- const ListaProductos = ({ idP, ttt, imagenes }) => {
-
-  const y = imagenes.length; 
-
-   if(y !== x){
-     indice = 0
-    }
-
-    if(indice < y ){
-      indice++
-    } else{
-      indice = 1
-    }
-    x = y;
+ const ListaProductos = ({ idP ,ttt, imagenes, precio }) => {
 
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.touchable}>
-        <Image source={imagenes[indice - 1].url} style={styles.image} resizeMode='cover' defaultSource={require('../assets/default.jpg')} />
+        <Image source={imagenes[idP - 1].url} style={styles.image} resizeMode='cover' defaultSource={require('../assets/default.jpg')} />
         <Text style={styles.modelo}>{ttt}</Text>
+        <Text style={styles.precio}>L. {precio}.00</Text>
       </TouchableOpacity>
     </View>
   );
@@ -39,22 +24,36 @@ const styles = StyleSheet.create({
         // backgroundColor: 'blue',
     },
     image: {
-      width: 160,
-      height: 170,
-      borderRadius: 10
+      maxWidth: '100%',
+      height: 195,
+      borderRadius: 5
     },
     touchable: {
-      backgroundColor: '#EEEEEE',
-      padding: 8,
+      // backgroundColor: '#EEEEEE',
+      // padding: 8,
+      marginTop: 5,
       borderRadius: 10,
-      shadowColor: '#ccc',
-        shadowOffset: {width: 0, height: 4},
-        shadowOpacity: 0.5,
-        elevation: 2,
-        alignItems: 'center',
-        maxWidth: 170
+      // shadowColor: '#ccc',
+      //   shadowOffset: {width: 0, height: 4},
+      //   shadowOpacity: 0.5,
+      //   elevation: 2,
+      maxWidth: '100%',
+      alignItems: 'flex-start',
+      padding: 5
+      // marginLeft: 5
     },
     modelo: {
+      fontSize: 20,
+      ...Platform.select({
+        ios: {
+          fontFamily: 'Cochin'
+        }
+      }),
+      marginTop: 5,
+      textAlign: 'left',
+      color: '#FFFFFF'
+    }, 
+    precio: {
       fontSize: 15,
       ...Platform.select({
         ios: {
@@ -62,7 +61,9 @@ const styles = StyleSheet.create({
         }
       }),
       marginTop: 5,
-      textAlign: 'right'
+      textAlign: 'right',
+      fontWeight: 'bold',
+      color: '#cccccc'
     }
 });
 

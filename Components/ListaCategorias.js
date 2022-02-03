@@ -11,11 +11,11 @@ const ListaCategorias = ({ id, Categorias, navigation }) => {
         require('../assets/IconoCategoria/Tennis.png'),
         require('../assets/IconoCategoria/deslizar-el-pie-dentro-de-los-zapatos.png'),
         require('../assets/IconoCategoria/sandalias.png'),
+        require('../assets/IconoCategoria/botin.png'),
         require('../assets/IconoCategoria/desodorante.png'),
-        require('../assets/IconoCategoria/cremaCorporal.png'),
         require('../assets/IconoCategoria/perfume.png'),
         require('../assets/IconoCategoria/shampoo.png'),
-        require('../assets/IconoCategoria/jabon.png'),
+        require('../assets/IconoCategoria/cremaCorporal.png'),
         require('../assets/IconoCategoria/cremaDePelo.png'),
         require('../assets/IconoCategoria/colorante.png'),
         require('../assets/IconoCategoria/bolso.png'),
@@ -28,7 +28,7 @@ const ListaCategorias = ({ id, Categorias, navigation }) => {
         require('../assets/IconoCategoria/cepillo-de-pelo.png'),
         require('../assets/IconoCategoria/ropa-interior.png'),
         require('../assets/IconoCategoria/ropa-interior-hombre.png'),
-        require('../assets/IconoCategoria/bata-de-noche.png'),
+        require('../assets/IconoCategoria/jabon.png'),
     ]
 
     // console.log(logos);
