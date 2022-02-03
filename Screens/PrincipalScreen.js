@@ -6,7 +6,7 @@ const PrincipalScreen = ({navigation}) => {
 
     return(
         <View style={styles.container} >
-            <ImageBackground source={require('../assets/FondoPrincipal.jpg')} resizeMode='cover' style={styles.imageBackground} >
+            <ImageBackground source={require('../assets/Fondo.jpg')} resizeMode='cover' style={styles.imageBackground} >
             <Login navigation={navigation}/>
             </ImageBackground>
         </View>
@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
     imageBackground: {
         flex: 1,
-        alignSelf: 'stretch',
+        // alignSelf: 'stretch',
         // justifyContent: 'center',
     },
 })

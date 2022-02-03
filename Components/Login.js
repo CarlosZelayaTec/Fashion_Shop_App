@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     title: {
-        color: '#FFFFFF',
+        color: '#000000',
         fontSize: 40,
         textAlign: 'center',
         ...Platform.select({
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         })
     },
     textWelcome: {
-        color: '#FFFFFF',
+        // color: '#FFFFFF',
         fontSize: 30,
         ...Platform.select({
             ios: {
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
         borderBottomColor: '#ccc',
         borderBottomWidth: 1,
         height: 25,
-        color: '#FFFFFF'
+        // color: '#FFFFFF'
     },
     containterInput: {
         marginLeft: 15,
