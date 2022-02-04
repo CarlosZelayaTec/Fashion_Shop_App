@@ -1,6 +1,6 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-import { PrincipalScreen, AreaScreen, MainScreen, PerfilScreen } from './Screens/index';
+import { PrincipalScreen, AreaScreen, MainScreen, PerfilScreen, PerfilModal } from './Screens/index';
 
 const AppNavigator = createStackNavigator({
   Principal: {
@@ -29,8 +29,26 @@ const AppNavigator = createStackNavigator({
   }
 })
 
+const ModalNavigator = createStackNavigator({
+  Mainn: AppNavigator,
+  ModalPerfil: {
+    screen: PerfilModal
+  }
+}, {
+  // initialRouteName: 'Mainn',
+  mode: 'modal',
+  headerMode: 'none',
+})
+
 MainScreen.navigationOptions = {
   title: 'Perfil'
 }
 
-export default createAppContainer(AppNavigator);
+PerfilModal.navigationOptions = {
+  cardStyle:{
+    backgroundColor:"transparent",
+    opacity: 0.98
+}
+}
+
+export default createAppContainer(ModalNavigator);

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, VirtualizedList, Image, Platform } from 'react-native';
+import { StyleSheet, Text, View, VirtualizedList, Image, Platform, TouchableOpacity, Modal } from 'react-native';
 import ImagesProducts from '../Api/ImagesProducts';
 
 const getItem = (data, index) => ({
@@ -7,7 +7,31 @@ const getItem = (data, index) => ({
     key: data[index].id,
     name: data[index].nameProduc.toUpperCase(),
     precio: data[index].precio,
+    color: data[index].color,
+    talla: data[index].talla,
+    sexo: data[index].sexo
 })
+
+// const ModalPerfil = () => {
+
+//     const [visibleModal, setVisibleModal] = useState(true);
+
+//     const modalVisibility = () => {
+//         setVisibleModal(true)
+//     }
+
+//     return(
+//         <View style={styles.modal}>
+//             <Modal
+//                 animationType='slide'
+//                 visible={visibleModal}
+//                 transparent={true}
+//             >
+//                 <Text>Soy el Modal</Text>
+//             </Modal>
+//         </View>
+//     )
+// }
 
 const MainScreen = ({ navigation }) => {
 
@@ -35,7 +59,7 @@ const MainScreen = ({ navigation }) => {
                 renderItem={({item}) => {
                     return(
                         <>
-                            <View style={styles.list}>
+                            <TouchableOpacity style={styles.list} onPress={() => navigation.navigate('ModalPerfil', { idProducto: item.id, imageUrl: urls[item.id].url, item: item }) }>
                                 <View style={styles.align}>
                                     <Image source={urls[item.id].url} style={styles.imagen} resizeMode='cover'></Image>
                                     <View style={styles.containerText}>
@@ -43,7 +67,7 @@ const MainScreen = ({ navigation }) => {
                                         <Text style={styles.precio}>L. {item.precio}.00</Text>
                                     </View>
                                 </View>
-                            </View>
+                            </TouchableOpacity>
                         </>
                     )
                 }}
@@ -67,31 +91,30 @@ const styles = StyleSheet.create({
         flexWrap: 'wrap',
         margin: 10,
         height: 175,
-        // borderWidth: 1,
-        // borderColor: '#000',
         borderRadius: 10,
-        backgroundColor: '#1D2443'
+        backgroundColor: '#121937',
+        borderRadius: 10,
     },
     align: {
         flexDirection: 'row',
     },
     containerText: {
         flex: 1,
-        justifyContent: 'space-between',
+        justifyContent: 'flex-end',
         alignItems: 'flex-end',
-        // backgroundColor: 'red',
         paddingRight: 10
     },
     title: {
         color: '#FFFFFF',
-        fontSize: 20,
+        fontSize: 22,
         textAlign: 'center',
         ...Platform.select({
             ios: {
                 fontFamily: 'Cochin',
             }
         }),
-        marginTop: 15
+        fontWeight: 'bold',
+        textAlign: 'right'
     },
     precio: {
         fontSize: 18,
@@ -101,16 +124,16 @@ const styles = StyleSheet.create({
             ios: {
                 fontFamily: 'Cochin',
             }
-        })
+        }),
+        paddingBottom: 10,
+        color: '#0CADC7'
     },
     imagen: {
         width: 170,
         height: 165,
         borderRadius: 10,
         margin: 5
-        // borderBottomRightRadius: 10,
-        // borderTopRightRadius: 10
-    }
+    },
 })
 
 export default MainScreen;

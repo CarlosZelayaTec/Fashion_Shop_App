@@ -5,7 +5,8 @@
         "nameProduc": "Barcelona",
         "precio": 1, 
         "color": ["Gris"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
@@ -13,7 +14,8 @@
         "nameProduc": "Lady's Versatile High WR",
         "precio": 480,
         "color": ["Rosado"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
@@ -21,7 +23,8 @@
         "nameProduc": "DB7584",
         "precio": 1,
         "color": ["Silver"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
@@ -29,7 +32,8 @@
         "nameProduc": "Lady's Versatile High WR",
         "precio": 480,
         "color": ["Black"],
-        "talla": [40]
+        "talla": [40],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
@@ -37,7 +41,8 @@
         "nameProduc": "Aruba",
         "precio": 450,
         "color": ["Rosado"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
@@ -45,7 +50,8 @@
         "nameProduc": "Rubie",
         "precio": 430,
         "color": ["Negro"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
@@ -53,7 +59,8 @@
         "nameProduc": "Maxima",
         "precio": 500,
         "color": ["Negro"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -61,7 +68,8 @@
         "nameProduc": "Dylan",
         "precio": 530,
         "color": ["Camel"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -69,7 +77,8 @@
         "nameProduc": "Bailarina",
         "precio": 330,
         "color": ["Mustard"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -77,7 +86,8 @@
         "nameProduc": "Noah",
         "precio": 530,
         "color": ["Negro"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -85,7 +95,8 @@
         "nameProduc": "Queens",
         "precio": 415,
         "color": ["Camel"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -93,7 +104,8 @@
         "nameProduc": "Eva",
         "precio": 550,
         "color": ["Rosado"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -101,7 +113,8 @@
         "nameProduc": "Phillig",
         "precio": 1,
         "color": ["Mocha"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -109,7 +122,8 @@
         "nameProduc": "Cora",
         "precio": 430,
         "color": ["Negro"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -117,7 +131,8 @@
         "nameProduc": "Quincy",
         "precio": 430,
         "color": ["Azul"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -125,7 +140,8 @@
         "nameProduc": "Terry",
         "precio": 530,
         "color": ["Rosado"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -133,7 +149,8 @@
         "nameProduc": "Bristol",
         "precio": 525,
         "color": ["Negro"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -141,7 +158,8 @@
         "nameProduc": "AL126-13",
         "precio": 400,
         "color": ["Negro"],
-        "talla": [35]
+        "talla": [35],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -149,7 +167,8 @@
         "nameProduc": "Brok",
         "precio": 420,
         "color": ["Camel"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -157,7 +176,8 @@
         "nameProduc": "HX19-M18",
         "precio": 420,
         "color": ["Beige"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -165,7 +185,8 @@
         "nameProduc": "Atlantic",
         "precio": 385,
         "color": ["Terra"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -173,7 +194,8 @@
         "nameProduc": "Tangx IA",
         "precio": 430,
         "color": ["Negro"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -181,7 +203,8 @@
         "nameProduc": "Winnie",
         "precio": 330,
         "color": ["Amarillo"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -189,7 +212,8 @@
         "nameProduc": "Rouge",
         "precio": 465,
         "color": ["Negro"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -197,7 +221,8 @@
         "nameProduc": "Cheryl",
         "precio": 530,
         "color": ["Beige"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -205,7 +230,8 @@
         "nameProduc": "Belfast",
         "precio": 430,
         "color": ["Black Patent"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
@@ -213,7 +239,8 @@
         "nameProduc": "Stanford",
         "precio": 430,
         "color": ["Wine Patent"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -221,7 +248,8 @@
         "nameProduc": "FLY05-32",
         "precio": 400,
         "color": ["Café"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -229,7 +257,8 @@
         "nameProduc": "Malibel",
         "precio": 460,
         "color": ["Champagne"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -237,7 +266,8 @@
         "nameProduc": "Cirella",
         "precio": 450,
         "color": ["Dorado"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -245,7 +275,8 @@
         "nameProduc": "Girona",
         "precio": 415,
         "color": ["Mustard"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -253,7 +284,8 @@
         "nameProduc": "Palmetto",
         "precio": 480,
         "color": ["Champagne"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -261,7 +293,8 @@
         "nameProduc": "Baiyun",
         "precio": 415,
         "color": ["Red"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -269,7 +302,8 @@
         "nameProduc": "FEM-22",
         "precio": 400,
         "color": ["Rose Gold"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -277,7 +311,8 @@
         "nameProduc": "CDA621-112",
         "precio": 300,
         "color": ["Negro"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -285,7 +320,8 @@
         "nameProduc": "Neela2",
         "precio": 430,
         "color": ["Dorado"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -293,7 +329,8 @@
         "nameProduc": "Fritzie",
         "precio": 460,
         "color": ["Negro"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -301,7 +338,8 @@
         "nameProduc": "Sicilia",
         "precio": 385,
         "color": ["Silver"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -309,7 +347,8 @@
         "nameProduc": "Verona",
         "precio": 415,
         "color": ["Silver"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -317,7 +356,8 @@
         "nameProduc": "HSM28-1",
         "precio": 300,
         "color": ["Dorado"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -325,7 +365,8 @@
         "nameProduc": "Labelle",
         "precio": 1,
         "color": ["Camel"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -333,7 +374,8 @@
         "nameProduc": "Ariadna",
         "precio": 1,
         "color": ["Negro"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -341,7 +383,8 @@
         "nameProduc": "Signal",
         "precio": 750,
         "color": ["Negro"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -349,7 +392,8 @@
         "nameProduc": "Kenley",
         "precio": 39,
         "color": ["Camel"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -357,7 +401,8 @@
         "nameProduc": "Avatar",
         "precio": 650,
         "color": ["Nude"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -365,7 +410,8 @@
         "nameProduc": "Merida",
         "precio": 36,
         "color": ["Coffe"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -373,7 +419,8 @@
         "nameProduc": "Getha",
         "precio": 525,
         "color": ["Negro"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -381,7 +428,8 @@
         "nameProduc": "Coco",
         "precio": 1,
         "color": ["Champagne"],
-        "talla": [39]
+        "talla": [39],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -389,7 +437,8 @@
         "nameProduc": "Manila",
         "precio": 315,
         "color": ["Rosado"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -397,7 +446,8 @@
         "nameProduc": "Fem-16",
         "precio": 400,
         "color": ["Rose Gold"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -405,7 +455,8 @@
         "nameProduc": "A20-G09",
         "precio": 1,
         "color": ["Nude"],
-        "talla": [22]
+        "talla": [22],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -413,7 +464,8 @@
         "nameProduc": "WCD627-48A",
         "precio": 1,
         "color": ["Fushia"],
-        "talla": [30]
+        "talla": [30],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -421,7 +473,8 @@
         "nameProduc": "Ravena",
         "precio": 450,
         "color": ["LT Gold"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -429,7 +482,8 @@
         "nameProduc": "Arona",
         "precio": 1,
         "color": ["Camel"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -437,7 +491,8 @@
         "nameProduc": "Ningbo",
         "precio": 415,
         "color": ["Rojo"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -445,7 +500,8 @@
         "nameProduc": "Arabella2",
         "precio": 550,
         "color": ["Negro"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -453,7 +509,8 @@
         "nameProduc": "Kala",
         "precio": 450,
         "color": ["Nude"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -461,7 +518,8 @@
         "nameProduc": "Kamilah",
         "precio": 420,
         "color": ["Camel"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -469,7 +527,8 @@
         "nameProduc": "Shanghai",
         "precio": 420,
         "color": ["Rojo"],
-        "talla": [37]
+        "talla": [37],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -477,7 +536,8 @@
         "nameProduc": "Alondra",
         "precio": 1,
         "color": ["Camel"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -485,7 +545,8 @@
         "nameProduc": "Marina",
         "precio": 450,
         "color": ["Rosado"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -493,7 +554,8 @@
         "nameProduc": "Rupi",
         "precio": 450,
         "color": ["Café"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -501,7 +563,8 @@
         "nameProduc": "Miconos 2",
         "precio": 450,
         "color": ["Champagne"],
-        "talla": [36]
+        "talla": [36],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -509,7 +572,8 @@
         "nameProduc": "Hera",
         "precio": 335,
         "color": ["Silver"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -517,7 +581,8 @@
         "nameProduc": "CD418-142",
         "precio": 260,
         "color": ["Beige"],
-        "talla": [40]
+        "talla": [40],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 3,
@@ -525,7 +590,8 @@
         "nameProduc": "Ares",
         "precio": 345,
         "color": ["Mustard"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 4,
@@ -533,7 +599,8 @@
         "nameProduc": "Sin Nombre",
         "precio": 1,
         "color": ["Gris"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 4,
@@ -541,7 +608,8 @@
         "nameProduc": "Sin Nombre",
         "precio": 1,
         "color": ["Cafe"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 4,
@@ -549,7 +617,8 @@
         "nameProduc": "Sin Nombre",
         "precio": 1,
         "color": ["Cafe"],
-        "talla": [38]
+        "talla": [38],
+        "sexo": "Mujer"
     },
     {
         "categoriaId": 5,
