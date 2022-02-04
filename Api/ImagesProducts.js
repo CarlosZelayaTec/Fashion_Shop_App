@@ -470,6 +470,196 @@ const ImagesProducts = [
         id_Categoria: 6,
         id_Product: 94,
         url: require('../assets/Lociones/locion13.jpg')
+    },
+    {
+        id_Categoria: 7,
+        id_Product: 95,
+        url: require('../assets/Shampoo/shampo1.jpg')
+    },
+    {
+        id_Categoria: 7,
+        id_Product: 96,
+        url: require('../assets/Shampoo/shampo2.jpg')
+    },
+    {
+        id_Categoria: 7,
+        id_Product: 97,
+        url: require('../assets/Shampoo/shampo3.jpg')
+    },
+    {
+        id_Categoria: 8,
+        id_Product: 98,
+        url: require('../assets/Cremas-corporales/cremaC1.jpg')
+    },
+    {
+        id_Categoria: 8,
+        id_Product: 99,
+        url: require('../assets/Cremas-corporales/cremaC2.jpg')
+    },
+    {
+        id_Categoria: 8,
+        id_Product: 100,
+        url: require('../assets/Cremas-corporales/cremaC3.jpg')
+    },
+    {
+        id_Categoria: 8,
+        id_Product: 101,
+        url: require('../assets/Cremas-corporales/cremaC4.jpg')
+    },
+    {
+        id_Categoria: 8,
+        id_Product: 102,
+        url: require('../assets/Cremas-corporales/cremaC5.jpg')
+    },
+    {
+        id_Categoria: 9,
+        id_Product: 103,
+        url: require('../assets/Crema_de_pelo/cremaPelo.jpg')
+    },
+    {
+        id_Categoria: 10,
+        id_Product: 104,
+        url: require('../assets/Tintes-de-cabello/tinte1.jpg')
+    },
+    {
+        id_Categoria: 10,
+        id_Product: 105,
+        url: require('../assets/Tintes-de-cabello/tinte2.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 106,
+        url: require('../assets/Monederos/monedero1.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 107,
+        url: require('../assets/Monederos/monedero2.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 108,
+        url: require('../assets/Monederos/monedero3.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 109,
+        url: require('../assets/Monederos/monedero4.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 110,
+        url: require('../assets/Monederos/monedero5.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 111,
+        url: require('../assets/Monederos/monedero6.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 112,
+        url: require('../assets/Monederos/monedero7.jpg')
+    },
+    {
+        id_Categoria: 11,
+        id_Product: 113,
+        url: require('../assets/Monederos/monedero8.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 114,
+        url: require('../assets/Maquillaje/1.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 115,
+        url: require('../assets/Maquillaje/2.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 116,
+        url: require('../assets/Maquillaje/3.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 117,
+        url: require('../assets/Maquillaje/4.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 118,
+        url: require('../assets/Maquillaje/5.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 119,
+        url: require('../assets/Maquillaje/6.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 120,
+        url: require('../assets/Maquillaje/7.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 121,
+        url: require('../assets/Maquillaje/8.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 122,
+        url: require('../assets/Maquillaje/9.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 123,
+        url: require('../assets/Maquillaje/10.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 124,
+        url: require('../assets/Maquillaje/11.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 125,
+        url: require('../assets/Maquillaje/12.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 126,
+        url: require('../assets/Maquillaje/13.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 127,
+        url: require('../assets/Maquillaje/14.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 128,
+        url: require('../assets/Maquillaje/15.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 129,
+        url: require('../assets/Maquillaje/16.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 130,
+        url: require('../assets/Maquillaje/17.jpg')
+    },
+    {
+        id_Categoria: 12,
+        id_Product: 131,
+        url: require('../assets/Maquillaje/18.jpg')
+    },
+    {
+        id_Categoria: 13,
+        id_Product: 132,
+        url: require('../assets/Glases/1.jpg')
     }
 ]
 

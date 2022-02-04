@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, VirtualizedList, Image } from 'react-native';
+import { StyleSheet, Text, View, VirtualizedList, Image, Platform } from 'react-native';
 import ImagesProducts from '../Api/ImagesProducts';
 
 const getItem = (data, index) => ({
     id: index,
-    name: data[index].nameProduc,
+    key: data[index].id,
+    name: data[index].nameProduc.toUpperCase(),
     precio: data[index].precio,
-    image: ImagesProducts[index].url,
 })
 
 const MainScreen = ({ navigation }) => {
@@ -25,31 +25,30 @@ const MainScreen = ({ navigation }) => {
         fetchProductos();
     })
 
-    // data.filter(x => x.categoriaId === idCategoria);
-    imagenes.filter(x => x.id_Categoria === idCategoria);
-
-    // console.log(data);
+    const urls = imagenes.filter(x => x.id_Categoria === idCategoria)
 
     return(
         <View style={styles.container}>
             <VirtualizedList 
                 data={data.filter(x => x.categoriaId === idCategoria)}
-                keyExtractor={(item, x) => x.id }
+                keyExtractor={(item) => item.key }
                 renderItem={({item}) => {
                     return(
-                        <View style={styles.list}>
-                            <View style={styles.align}>
-                                <Image source={item.image} style={styles.imagen} resizeMode='cover'></Image>
-                                <Text style={styles.title}>{item.name}</Text>
-                                <Text style={styles.title}>L. {item.precio}.00</Text>
+                        <>
+                            <View style={styles.list}>
+                                <View style={styles.align}>
+                                    <Image source={urls[item.id].url} style={styles.imagen} resizeMode='cover'></Image>
+                                    <View style={styles.containerText}>
+                                        <Text style={styles.title}>{item.name}</Text>
+                                        <Text style={styles.precio}>L. {item.precio}.00</Text>
+                                    </View>
+                                </View>
                             </View>
-                        </View>
+                        </>
                     )
                 }}
                 getItemCount={x => x.filter(x => x.categoriaId === idCategoria).length}
                 getItem={getItem}
-                // horizontal={true}
-                windowSize={20}
             />
         </View>
     )
@@ -61,34 +60,56 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: 'row',
         backgroundColor: '#202641',
-        justifyContent: 'flex-start',
-        alignSelf: 'stretch',
-        // alignItems: 'center'
+        alignContent: 'flex-start'
     },
     list: {
-        // flex: 1,
-        flexDirection: 'row',
-        // alignItems: 'baseline',
-        // alignSelf: 'stretch'
-        // backgroundColor: '#FFFFFF',
-        // alignItems: 'baseline',
-        // alignSelf: 'stretch',
+        flexBasis: 100,
+        flexWrap: 'wrap',
+        margin: 10,
+        height: 175,
+        // borderWidth: 1,
+        // borderColor: '#000',
+        borderRadius: 10,
+        backgroundColor: '#1D2443'
     },
     align: {
-        // flex: 1,
-        // flexDirection: 'column-reverse',
+        flexDirection: 'row',
+    },
+    containerText: {
+        flex: 1,
+        justifyContent: 'space-between',
+        alignItems: 'flex-end',
         // backgroundColor: 'red',
-        margin: 10,
-        width: '40%'
-        // maxWidth: '100%'
+        paddingRight: 10
     },
     title: {
         color: '#FFFFFF',
-        fontSize: 30
+        fontSize: 20,
+        textAlign: 'center',
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        }),
+        marginTop: 15
+    },
+    precio: {
+        fontSize: 18,
+        color: '#CCCCCC',
+        textAlign: 'center',
+        ...Platform.select({
+            ios: {
+                fontFamily: 'Cochin',
+            }
+        })
     },
     imagen: {
-        width: 100,
-        height: 100,
+        width: 170,
+        height: 165,
+        borderRadius: 10,
+        margin: 5
+        // borderBottomRightRadius: 10,
+        // borderTopRightRadius: 10
     }
 })
 
