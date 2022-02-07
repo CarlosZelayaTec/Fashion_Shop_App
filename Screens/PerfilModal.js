@@ -84,7 +84,6 @@ const styles = StyleSheet.create({
         
     },
     imageContainer: {
-        // flex: 2,
         justifyContent: 'flex-start',
         alignSelf: 'stretch',
         maxHeight: '65%',
@@ -95,26 +94,18 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         alignItems: 'flex-end',
-        // borderRadius: 20
     },
     datosContainer: {
-        // flex: 1,
         minHeight: '100%',
         justifyContent: 'space-around',
         alignItems: 'flex-start',
         marginHorizontal: 15,
         paddingBottom: 5,
-        // paddingVertical: 20 
-        // marginTop: 10
-        // backgroundColor: 'yellow',
     },
     alignDatos: {
-        // flex: 1,
         flexDirection: 'row',
         justifyContent: 'space-between',
-        // backgroundColor: 'blue',
         alignSelf: 'stretch',
-        // maxWidth: '100%'
     },
     font: {
         fontSize: 20,
@@ -124,30 +115,22 @@ const styles = StyleSheet.create({
             }
         }),
         color: '#000',
-        // marginTop: 5
     },  
     returns: {
         fontSize: 23,
         fontWeight: 'bold',
-        // minWidth: '100%'
-        // color: 'grey',
     },
     title: {
         width: '70%'
     },
     botonClose: {
-        // flex: 1,
-        // maxHeight: 50,
-        // width: 50,
         backgroundColor: '#eee',
         borderRadius: 50,
         marginTop: 5,
         marginRight: 10,
         opacity: 0.5
-        // justifyContent: 'flex-end'
     },
     button: {
-        // backgroundColor: '#000',
         color: '#FFFFFF',
         fontSize: 30,
         padding: 10,
@@ -160,7 +143,6 @@ const styles = StyleSheet.create({
     butonStyle: {
         backgroundColor: '#000',
         borderRadius: 12,
-        // marginTop: 10,
         alignSelf: 'stretch',
         alignItems: 'center'
     }
