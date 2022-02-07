@@ -41,10 +41,11 @@ const styles = StyleSheet.create({
             ios: {
                 fontFamily: 'Cochin',
             }
-        })
+        }),
+        color: '#FFFFFF'
     },
     textWelcome: {
-        // color: '#FFFFFF',
+        color: '#FFFFFF',
         fontSize: 30,
         ...Platform.select({
             ios: {
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
         borderBottomColor: '#ccc',
         borderBottomWidth: 1,
         height: 25,
-        // color: '#FFFFFF'
+        color: '#FFFFFF'
     },
     containterInput: {
         marginLeft: 15,

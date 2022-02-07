@@ -12,27 +12,6 @@ const getItem = (data, index) => ({
     sexo: data[index].sexo
 })
 
-// const ModalPerfil = () => {
-
-//     const [visibleModal, setVisibleModal] = useState(true);
-
-//     const modalVisibility = () => {
-//         setVisibleModal(true)
-//     }
-
-//     return(
-//         <View style={styles.modal}>
-//             <Modal
-//                 animationType='slide'
-//                 visible={visibleModal}
-//                 transparent={true}
-//             >
-//                 <Text>Soy el Modal</Text>
-//             </Modal>
-//         </View>
-//     )
-// }
-
 const MainScreen = ({ navigation }) => {
 
     const idCategoria = navigation.getParam('idCategoria');

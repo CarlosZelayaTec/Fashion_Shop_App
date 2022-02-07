@@ -625,7 +625,7 @@
         "id": 70,
         "nameProduc": "Dove",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -634,7 +634,7 @@
         "id": 71,
         "nameProduc": "Secret",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -643,7 +643,7 @@
         "id": 72,
         "nameProduc": "Suave",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -652,7 +652,7 @@
         "id": 73,
         "nameProduc": "Body Mist",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -661,7 +661,7 @@
         "id": 74,
         "nameProduc": "Rexona",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -670,7 +670,7 @@
         "id": 75,
         "nameProduc": "Nivea",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -679,7 +679,7 @@
         "id": 76,
         "nameProduc": "Axe",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -688,7 +688,7 @@
         "id": 77,
         "nameProduc": "Nivea Men",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -697,7 +697,7 @@
         "id": 78,
         "nameProduc": "Rexona men",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -706,7 +706,7 @@
         "id": 79,
         "nameProduc": "Old Spice Fresh",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -715,7 +715,7 @@
         "id": 80,
         "nameProduc": "Rexona en barra",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -724,7 +724,7 @@
         "id": 81,
         "nameProduc": "Degree",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -733,7 +733,7 @@
         "id": 82,
         "nameProduc": "Lovali Fragances",
         "precio": 200,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -742,7 +742,7 @@
         "id": 83,
         "nameProduc": "Frangance Mist - Brume Perfume",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -751,7 +751,7 @@
         "id": 84,
         "nameProduc": "Pink in Sweet",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -760,7 +760,7 @@
         "id": 85,
         "nameProduc": "Victoria's Secret",
         "precio": 100,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -769,7 +769,7 @@
         "id": 86,
         "nameProduc": "Pink In Sweet",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -778,7 +778,7 @@
         "id": 87,
         "nameProduc": "Boos",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -787,7 +787,7 @@
         "id": 88,
         "nameProduc": "The Victoria's Star",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -796,7 +796,7 @@
         "id": 89,
         "nameProduc": "Acqua Di Giq",
         "precio": 450,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -805,7 +805,7 @@
         "id": 90,
         "nameProduc": "Le via est belle",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -814,7 +814,7 @@
         "id": 91,
         "nameProduc": "Tonny",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -823,7 +823,7 @@
         "id": 92,
         "nameProduc": "OnlyYou",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -832,7 +832,7 @@
         "id": 93,
         "nameProduc": "Vercage",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -841,7 +841,7 @@
         "id": 94,
         "nameProduc": "OnlyYou",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Hombre"
     },
@@ -850,7 +850,7 @@
         "id": 95,
         "nameProduc": "VO5",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "M/H"
     }, 
@@ -859,7 +859,7 @@
         "id": 96,
         "nameProduc": "Sedal Yuya",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     }, 
@@ -868,7 +868,7 @@
         "id": 97,
         "nameProduc": "Sedal",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -877,7 +877,7 @@
         "id": 98,
         "nameProduc": "Nivea",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -886,7 +886,7 @@
         "id": 99,
         "nameProduc": "Jergens",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -895,7 +895,7 @@
         "id": 100,
         "nameProduc": "ST. Ives",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     }, 
@@ -904,7 +904,7 @@
         "id": 101,
         "nameProduc": "Suave",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -913,7 +913,7 @@
         "id": 102,
         "nameProduc": "Pond's",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     }, 
@@ -922,7 +922,7 @@
         "id": 103,
         "nameProduc": "Sedal",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -1021,7 +1021,7 @@
         "id": 114,
         "nameProduc": "Ashley Longshore x Maybelline",
         "precio": 110,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1030,7 +1030,7 @@
         "id": 115,
         "nameProduc": "Sin Nombre",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1039,7 +1039,7 @@
         "id": 116,
         "nameProduc": "Yh Beja",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1048,7 +1048,7 @@
         "id": 117,
         "nameProduc": "Goldens",
         "precio": 70,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1057,7 +1057,7 @@
         "id": 118,
         "nameProduc": "By Apple",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1066,7 +1066,7 @@
         "id": 119,
         "nameProduc": "Magic - Iman of noble",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1075,7 +1075,7 @@
         "id": 120,
         "nameProduc": "By Apple",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1084,7 +1084,7 @@
         "id": 121,
         "nameProduc": "Clinique",
         "precio": 75,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1093,7 +1093,7 @@
         "id": 122,
         "nameProduc": "Clinique",
         "precio": 250,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1102,7 +1102,7 @@
         "id": 123,
         "nameProduc": "Px look",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1111,7 +1111,7 @@
         "id": 124,
         "nameProduc": "Wonder Stick",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1120,7 +1120,7 @@
         "id": 125,
         "nameProduc": "Morphe 01 - Megane",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1129,7 +1129,7 @@
         "id": 126,
         "nameProduc": "Yh beja",
         "precio": 36,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1138,7 +1138,7 @@
         "id": 127,
         "nameProduc": "Yh beja - Natural & soft",
         "precio": 50,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1147,7 +1147,7 @@
         "id": 128,
         "nameProduc": "Italia",
         "precio": 1,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1156,7 +1156,7 @@
         "id": 129,
         "nameProduc": "Korean char - Brush",
         "precio": 70,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1165,7 +1165,7 @@
         "id": 130,
         "nameProduc": "Yh  beja - Matte",
         "precio": 50,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1174,7 +1174,7 @@
         "id": 131,
         "nameProduc": "Cleansing Towelettes",
         "precio": 75,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     },
@@ -1183,7 +1183,7 @@
         "id": 132,
         "nameProduc": "Nail Polish",
         "precio": 30,
-        "color": [""],
+        "color": [],
         "talla": [],
         "sexo": ""
     }
