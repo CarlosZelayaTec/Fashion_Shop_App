@@ -11,17 +11,17 @@ const Login = ({navigation}) => {
         <View style={styles.containerText}>
             <Text style={styles.title}>Bienvenidos a Fashion Shop</Text>
                 <View style={styles.welcomeContainer}>
-                    <Text style={styles.textWelcome}>¡Hola!, Cuentanos ¿Cómo te llamas? </Text>
+                    <Text style={styles.textWelcome}>¡Hola!, Que tengas un excelente día.</Text>
                 </View>
         </View>
 
-        <View style={styles.containterInput}>
-            <TextInput style={styles.textInput} placeholder='Su nombre' placeholderTextColor={'#858585'} autoCorrect={true}/>
-        </View>
+        {/* <View style={styles.containterInput}>
+            <TextInput style={styles.textInput} placeholder='Su nombre' placeholderTextColor={'#858585'} autoCorrect={true} />
+        </View> */}
 
         <View style={styles.buttonAlign}>
             <TouchableOpacity style={styles.button} onPress={() => { navigation.navigate('Categoria') }}> 
-                <Text style={styles.textButton}>Aceptar y continuar</Text>
+                <Text style={styles.textButton}>Continuar</Text>
             </TouchableOpacity>
         </View>
 
@@ -42,10 +42,10 @@ const styles = StyleSheet.create({
                 fontFamily: 'Cochin',
             }
         }),
-        color: '#FFFFFF'
+        color: '#202641'
     },
     textWelcome: {
-        color: '#FFFFFF',
+        color: '#202641',
         fontSize: 30,
         ...Platform.select({
             ios: {

@@ -3,7 +3,7 @@
         "categoriaId": 1,
         "id": 1,
         "nameProduc": "Barcelona",
-        "precio": 1, 
+        "precio": 345, 
         "color": ["Gris"],
         "talla": [39],
         "sexo": "Mujer"
@@ -13,15 +13,15 @@
         "id": 2,
         "nameProduc": "Lady's Versatile High WR",
         "precio": 480,
-        "color": ["Rosado"],
-        "talla": [39],
+        "color": ["Negro - ", "White/Rose Gold"],
+        "talla": [40],
         "sexo": "Mujer"
     },
     {
         "categoriaId": 1,
         "id": 3,
         "nameProduc": "DB7584",
-        "precio": 1,
+        "precio": 335,
         "color": ["Silver"],
         "talla": [39],
         "sexo": "Mujer"
@@ -40,8 +40,8 @@
         "id": 5,
         "nameProduc": "Aruba",
         "precio": 450,
-        "color": ["Rosado"],
-        "talla": [38],
+        "color": ["Rosado - ", "Negro"],
+        "talla": [37, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -66,9 +66,9 @@
         "categoriaId": 2,
         "id": 8,
         "nameProduc": "Dylan",
-        "precio": 530,
-        "color": ["Camel"],
-        "talla": [36],
+        "precio": 350,
+        "color": ["Camel - ", "Nude Pink - ", "Negro"],
+        "talla": [36, 37, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -76,8 +76,8 @@
         "id": 9,
         "nameProduc": "Bailarina",
         "precio": 330,
-        "color": ["Mustard"],
-        "talla": [36],
+        "color": ["Mustard - ", "Dorado - ", "Silver"],
+        "talla": [36, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -94,8 +94,8 @@
         "id": 11,
         "nameProduc": "Queens",
         "precio": 415,
-        "color": ["Camel"],
-        "talla": [36],
+        "color": ["Camel - ", "Vino - ", "Negro"],
+        "talla": [36, 37, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -104,16 +104,16 @@
         "nameProduc": "Eva",
         "precio": 550,
         "color": ["Rosado"],
-        "talla": [36],
+        "talla": [37, 38, 39],
         "sexo": "Mujer"
     },
     {
         "categoriaId": 2,
         "id": 13,
         "nameProduc": "Phillig",
-        "precio": 1,
-        "color": ["Mocha"],
-        "talla": [36],
+        "precio": 385,
+        "color": ["Mocha - ", "Rosado"],
+        "talla": [36, 37, 39],
         "sexo": "Mujer"
     },
     {
@@ -122,7 +122,7 @@
         "nameProduc": "Cora",
         "precio": 430,
         "color": ["Negro"],
-        "talla": [36],
+        "talla": [36, 37, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -130,8 +130,8 @@
         "id": 15,
         "nameProduc": "Quincy",
         "precio": 430,
-        "color": ["Azul"],
-        "talla": [36],
+        "color": ["Azul - ", "Beige - ", "Camel"],
+        "talla": [36, 37, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -139,8 +139,8 @@
         "id": 16,
         "nameProduc": "Terry",
         "precio": 530,
-        "color": ["Rosado"],
-        "talla": [36],
+        "color": ["Rosado - ", "Beige"],
+        "talla": [36, 39],
         "sexo": "Mujer"
     },
     {
@@ -149,7 +149,7 @@
         "nameProduc": "Bristol",
         "precio": 525,
         "color": ["Negro"],
-        "talla": [36],
+        "talla": [36, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -157,8 +157,8 @@
         "id": 18,
         "nameProduc": "AL126-13",
         "precio": 400,
-        "color": ["Negro"],
-        "talla": [35],
+        "color": ["Negro - ", "Camel - ", "Beige"],
+        "talla": [35, 36],
         "sexo": "Mujer"
     },
     {
@@ -167,7 +167,7 @@
         "nameProduc": "Brok",
         "precio": 420,
         "color": ["Camel"],
-        "talla": [36],
+        "talla": [36, 37, 38],
         "sexo": "Mujer"
     },
     {
@@ -175,8 +175,8 @@
         "id": 20,
         "nameProduc": "HX19-M18",
         "precio": 420,
-        "color": ["Beige"],
-        "talla": [38],
+        "color": ["Beige - ", "Negro - ", "Cafe"],
+        "talla": [38, 40],
         "sexo": "Mujer"
     },
     {
@@ -193,8 +193,8 @@
         "id": 22,
         "nameProduc": "Tangx IA",
         "precio": 430,
-        "color": ["Negro"],
-        "talla": [37],
+        "color": ["Negro - ", "Camel"],
+        "talla": [36, 37, 38, 39],
         "sexo": "Mujer"
     },
     {
@@ -202,8 +202,8 @@
         "id": 23,
         "nameProduc": "Winnie",
         "precio": 330,
-        "color": ["Amarillo"],
-        "talla": [37],
+        "color": ["Amarillo - ", " Rosado"],
+        "talla": [37, 38],
         "sexo": "Mujer"
     },
     {
@@ -596,35 +596,35 @@
     {
         "categoriaId": 4,
         "id": 67,
-        "nameProduc": "Sin Nombre",
+        "nameProduc": "Pink Studio - Davis",
         "precio": 1,
         "color": ["Gris"],
-        "talla": [38],
+        "talla": [40],
         "sexo": "Mujer"
     },
     {
         "categoriaId": 4,
         "id": 68,
-        "nameProduc": "Sin Nombre",
+        "nameProduc": "Pink Studio",
         "precio": 1,
         "color": ["Cafe"],
-        "talla": [38],
+        "talla": [36],
         "sexo": "Mujer"
     },
     {
         "categoriaId": 4,
         "id": 69,
-        "nameProduc": "Sin Nombre",
+        "nameProduc": "Pink Studio",
         "precio": 1,
         "color": ["Cafe"],
-        "talla": [38],
+        "talla": [36],
         "sexo": "Mujer"
     },
     {
         "categoriaId": 5,
         "id": 70,
         "nameProduc": "Dove",
-        "precio": 100,
+        "precio": 80,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -633,7 +633,7 @@
         "categoriaId": 5,
         "id": 71,
         "nameProduc": "Secret",
-        "precio": 100,
+        "precio": 85,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -642,7 +642,7 @@
         "categoriaId": 5,
         "id": 72,
         "nameProduc": "Suave",
-        "precio": 100,
+        "precio": 90,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -651,7 +651,7 @@
         "categoriaId": 5,
         "id": 73,
         "nameProduc": "Body Mist",
-        "precio": 100,
+        "precio": 50,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -660,7 +660,7 @@
         "categoriaId": 5,
         "id": 74,
         "nameProduc": "Rexona",
-        "precio": 100,
+        "precio": 75,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -669,7 +669,7 @@
         "categoriaId": 5,
         "id": 75,
         "nameProduc": "Nivea",
-        "precio": 100,
+        "precio": 95,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -678,7 +678,7 @@
         "categoriaId": 5,
         "id": 76,
         "nameProduc": "Axe",
-        "precio": 100,
+        "precio": 70,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -687,7 +687,7 @@
         "categoriaId": 5,
         "id": 77,
         "nameProduc": "Nivea Men",
-        "precio": 100,
+        "precio": 90,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -696,7 +696,7 @@
         "categoriaId": 5,
         "id": 78,
         "nameProduc": "Rexona men",
-        "precio": 100,
+        "precio": 70,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -705,7 +705,7 @@
         "categoriaId": 5,
         "id": 79,
         "nameProduc": "Old Spice Fresh",
-        "precio": 100,
+        "precio": 80,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -714,7 +714,7 @@
         "categoriaId": 5,
         "id": 80,
         "nameProduc": "Rexona en barra",
-        "precio": 100,
+        "precio": 70,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -723,7 +723,7 @@
         "categoriaId": 5,
         "id": 81,
         "nameProduc": "Degree",
-        "precio": 100,
+        "precio": 105,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -741,7 +741,7 @@
         "categoriaId": 6,
         "id": 83,
         "nameProduc": "Frangance Mist - Brume Perfume",
-        "precio": 1,
+        "precio": 200,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -750,7 +750,7 @@
         "categoriaId": 6,
         "id": 84,
         "nameProduc": "Pink in Sweet",
-        "precio": 1,
+        "precio": 200,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -759,7 +759,7 @@
         "categoriaId": 6,
         "id": 85,
         "nameProduc": "Victoria's Secret",
-        "precio": 100,
+        "precio": 370,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -768,7 +768,7 @@
         "categoriaId": 6,
         "id": 86,
         "nameProduc": "Pink In Sweet",
-        "precio": 1,
+        "precio": 250,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -777,7 +777,7 @@
         "categoriaId": 6,
         "id": 87,
         "nameProduc": "Boos",
-        "precio": 1,
+        "precio": 450,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -786,7 +786,7 @@
         "categoriaId": 6,
         "id": 88,
         "nameProduc": "The Victoria's Star",
-        "precio": 1,
+        "precio": 450,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -804,7 +804,7 @@
         "categoriaId": 6,
         "id": 90,
         "nameProduc": "Le via est belle",
-        "precio": 1,
+        "precio": 450,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -813,7 +813,7 @@
         "categoriaId": 6,
         "id": 91,
         "nameProduc": "Tonny",
-        "precio": 1,
+        "precio": 450,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -822,7 +822,7 @@
         "categoriaId": 6,
         "id": 92,
         "nameProduc": "OnlyYou",
-        "precio": 1,
+        "precio": 150,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -831,7 +831,7 @@
         "categoriaId": 6,
         "id": 93,
         "nameProduc": "Vercage",
-        "precio": 1,
+        "precio": 450,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -840,7 +840,7 @@
         "categoriaId": 6,
         "id": 94,
         "nameProduc": "OnlyYou",
-        "precio": 1,
+        "precio": 150,
         "color": [],
         "talla": [],
         "sexo": "Hombre"
@@ -849,7 +849,7 @@
         "categoriaId": 7,
         "id": 95,
         "nameProduc": "VO5",
-        "precio": 1,
+        "precio": 70,
         "color": [],
         "talla": [],
         "sexo": "M/H"
@@ -858,7 +858,7 @@
         "categoriaId": 7,
         "id": 96,
         "nameProduc": "Sedal Yuya",
-        "precio": 1,
+        "precio": 65,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -867,7 +867,7 @@
         "categoriaId": 7,
         "id": 97,
         "nameProduc": "Sedal",
-        "precio": 1,
+        "precio": 75,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -876,7 +876,7 @@
         "categoriaId": 8,
         "id": 98,
         "nameProduc": "Nivea",
-        "precio": 1,
+        "precio": 100,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -885,7 +885,7 @@
         "categoriaId": 8,
         "id": 99,
         "nameProduc": "Jergens",
-        "precio": 1,
+        "precio": 230,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -894,7 +894,7 @@
         "categoriaId": 8,
         "id": 100,
         "nameProduc": "ST. Ives",
-        "precio": 1,
+        "precio": 200,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -903,7 +903,7 @@
         "categoriaId": 8,
         "id": 101,
         "nameProduc": "Suave",
-        "precio": 1,
+        "precio": 240,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -912,7 +912,7 @@
         "categoriaId": 8,
         "id": 102,
         "nameProduc": "Pond's",
-        "precio": 1,
+        "precio": 70,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -921,7 +921,7 @@
         "categoriaId": 9,
         "id": 103,
         "nameProduc": "Sedal",
-        "precio": 1,
+        "precio": 100,
         "color": [],
         "talla": [],
         "sexo": "Mujer"
@@ -930,8 +930,8 @@
         "categoriaId": 10,
         "id": 104,
         "nameProduc": "Koleston",
-        "precio": 1,
-        "color": ["Rubio", "Negro"],
+        "precio": 120,
+        "color": ["Chocolate ", "Negro Azulado - ", "Castaño Mediano - ", "Castaño Chic - ", "Negro"],
         "talla": [],
         "sexo": "Mujer"
     },
@@ -940,16 +940,16 @@
         "id": 105,
         "nameProduc": "Remujas",
         "precio": 1,
-        "color": ["Negro", "Rubio"],
+        "color": ["Negro profundo - ", "Castaño profundo"],
         "talla": [],
         "sexo": "Mujer"
     },
     {
         "categoriaId": 11,
         "id": 106,
-        "nameProduc": "Sin Nombre",
-        "precio": 1,
-        "color": ["Blanco", "Rosado"],
+        "nameProduc": "Monedero Basic",
+        "precio": 150,
+        "color": ["Blanco - ", "Rosado"],
         "talla": [],
         "sexo": ""
     },
@@ -957,7 +957,7 @@
         "categoriaId": 11,
         "id": 107,
         "nameProduc": "MK",
-        "precio": 1,
+        "precio": 280,
         "color": ["Celeste"],
         "talla": [],
         "sexo": ""
@@ -966,7 +966,7 @@
         "categoriaId": 11,
         "id": 108,
         "nameProduc": "Forever Young",
-        "precio": 1,
+        "precio": 250,
         "color": ["Beige"],
         "talla": [],
         "sexo": ""
@@ -975,7 +975,7 @@
         "categoriaId": 11,
         "id": 109,
         "nameProduc": "MK",
-        "precio": 1,
+        "precio": 150,
         "color": ["Azul"],
         "talla": [],
         "sexo": ""
@@ -984,7 +984,7 @@
         "categoriaId": 11,
         "id": 110,
         "nameProduc": "FF",
-        "precio": 1,
+        "precio": 280,
         "color": ["Negro"],
         "talla": [],
         "sexo": ""
@@ -992,8 +992,8 @@
     {
         "categoriaId": 11,
         "id": 111,
-        "nameProduc": "Sin nombre",
-        "precio": 1,
+        "nameProduc": "Boho Chic",
+        "precio": 270,
         "color": ["Cafe"],
         "talla": [],
         "sexo": ""
@@ -1001,8 +1001,8 @@
     {
         "categoriaId": 11,
         "id": 112,
-        "nameProduc": "Sin Nombre",
-        "precio": 1,
+        "nameProduc": "Salo",
+        "precio": 240,
         "color": ["Blanco"],
         "talla": [],
         "sexo": ""
@@ -1028,8 +1028,8 @@
     {
         "categoriaId": 12,
         "id": 115,
-        "nameProduc": "Sin Nombre",
-        "precio": 1,
+        "nameProduc": "Color-Pro",
+        "precio": 180,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1038,7 +1038,7 @@
         "categoriaId": 12,
         "id": 116,
         "nameProduc": "Yh Beja",
-        "precio": 1,
+        "precio": 30,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1055,8 +1055,8 @@
     {
         "categoriaId": 12,
         "id": 118,
-        "nameProduc": "By Apple",
-        "precio": 1,
+        "nameProduc": "By Apple - Rimel",
+        "precio": 40,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1064,8 +1064,8 @@
     {
         "categoriaId": 12,
         "id": 119,
-        "nameProduc": "Magic - Iman of noble",
-        "precio": 1,
+        "nameProduc": "Magic - Iman of noble - Brillo labial",
+        "precio": 50,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1073,8 +1073,8 @@
     {
         "categoriaId": 12,
         "id": 120,
-        "nameProduc": "By Apple",
-        "precio": 1,
+        "nameProduc": "By Apple - Delineador",
+        "precio": 35,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1091,7 +1091,7 @@
     {
         "categoriaId": 12,
         "id": 122,
-        "nameProduc": "Clinique",
+        "nameProduc": "Clinique - Base",
         "precio": 250,
         "color": [],
         "talla": [],
@@ -1101,7 +1101,7 @@
         "categoriaId": 12,
         "id": 123,
         "nameProduc": "Px look",
-        "precio": 1,
+        "precio": 30,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1109,8 +1109,8 @@
     {
         "categoriaId": 12,
         "id": 124,
-        "nameProduc": "Wonder Stick",
-        "precio": 1,
+        "nameProduc": "Wonder Stick - Corrector en barra",
+        "precio": 80,
         "color": [],
         "talla": [],
         "sexo": ""
@@ -1127,7 +1127,7 @@
     {
         "categoriaId": 12,
         "id": 126,
-        "nameProduc": "Yh beja",
+        "nameProduc": "Yh beja - Polvo",
         "precio": 36,
         "color": [],
         "talla": [],
@@ -1145,8 +1145,8 @@
     {
         "categoriaId": 12,
         "id": 128,
-        "nameProduc": "Italia",
-        "precio": 1,
+        "nameProduc": "Italia - Lápiz de ojo",
+        "precio": 25,
         "color": [],
         "talla": [],
         "sexo": ""

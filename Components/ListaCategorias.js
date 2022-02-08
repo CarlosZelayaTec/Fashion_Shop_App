@@ -37,7 +37,7 @@ const ListaCategorias = ({ id, Categorias, navigation }) => {
     <View style={styles.container}>
         <TouchableOpacity style={styles.containerTouchable} onPress={next} > 
             <Text style={styles.titleCategorias}>{Categorias}</Text>
-            <Image source={logos[id - 1]} style={styles.imageLogo} resizeMode='cover' />
+            <Image source={logos[id - 1]} style={styles.imageLogo} resizeMode='cover' defaultSource={require('../assets/default.jpg')} />
         </TouchableOpacity>
     </View>
   );
@@ -50,14 +50,6 @@ const styles = StyleSheet.create({
         shadowOffset: {width: 0, height: 4},
         shadowOpacity: 0.5,
         elevation: 2,
-        // shadowColor: "#000",
-        // shadowOffset: {
-        // 	width: 0,
-        // 	height: 2,
-        // },
-        // shadowOpacity: 0.25,
-        // shadowRadius: 3.84,
-        // elevation: 5,
     },
     containerTouchable: {
         flex: 1,
@@ -65,7 +57,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-evenly',
         margin: 10,
         backgroundColor: '#FFFFFF',
-        height: 80,
+        height: 90,
         borderRadius: 15,
         padding: 5
     },

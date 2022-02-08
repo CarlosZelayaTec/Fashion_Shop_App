@@ -23,7 +23,6 @@ import React, {useState, useEffect} from 'react';
         items.talla = "N/A"
     }
 
-
   return (
     <View style={styles.container}>
         <View style={styles.modalSize} >
@@ -48,9 +47,10 @@ import React, {useState, useEffect} from 'react';
 
                             <Text style={styles.font}><Text style={styles.returns}>L. {items.precio}.00</Text> </Text>
                         </View>
-                            <Text style={styles.font}>Colores Disponibles: <Text style={styles.returns}>{items.color}</Text></Text>
-                            <Text style={styles.font}>Tallas Disponibles: <Text style={styles.returns}>{items.talla}</Text></Text>
+                            <Text style={styles.font}>Colores Disponibles: <Text style={styles.returns}>{items.color} </Text></Text>
+                            <Text style={styles.font}>Tallas Disponibles: <Text style={styles.returns}>{`${items.talla}`}</Text></Text>
                             <Text style={styles.font}>Sexo: <Text style={styles.returns}>{items.sexo}</Text></Text>
+
                             <TouchableOpacity onPress={() => alert('Pronto estará disponible')} style={styles.butonStyle}>
                                 <Text style={styles.button}>Agregar al carrito</Text>
                             </TouchableOpacity>
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
     },
     alignDatos: {
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
         alignSelf: 'stretch',
     },
     font: {
